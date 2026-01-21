@@ -21,7 +21,7 @@ Wazuh dashboard correctly identifying the brute-force pattern.
 
 3. Compliance Auditing
 Using Wazuh SCA to audit the Windows machine against CIS Benchmarks.
-![SCA Compliance Screenshot](The%20Wazuh%20Compliance%20(SCA)%20score.png)
+[SCA Compliance Screenshot](The%20Wazuh%20Compliance%20(SCA)%20score.png)
 
 🧠 Key Takeaways
 * Successfully configured agent-based log ingestion for SSH and System events.
