@@ -12,16 +12,16 @@ Virtualization:VirtualBox (NAT Network)
 📸 Screenshots & Evidence
 
 1. The Attack (Red Team)
-Running a dictionary attack against SSH using Hydra to simulate an unauthorized access attempt.
-![Hydra Attack Screenshot](PLACE_LINK_TO_HYDRA_IMAGE_HERE)
+Running a dictionary attack against SSH & RDP using Hydra to simulate an unauthorized access attempt.
+[Hydra Attack Screenshot](Bruit-force_attack_Hydra_SSH.png)
 
 ### 2. The Detection (Blue Team)
 *Wazuh dashboard correctly identifying the brute-force pattern (Rule ID 5710 & 5715).*
-![Wazuh Dashboard Screenshot](PLACE_LINK_TO_WAZUH_IMAGE_HERE)
+![Wazuh Dashboard Screenshot](Wazuh Dashboard showing the Events spike.png)
 
 ### 3. Compliance Auditing
 *Using Wazuh SCA to audit the Windows machine against CIS Benchmarks.*
-![SCA Compliance Screenshot](PLACE_LINK_TO_SCA_IMAGE_HERE)
+![SCA Compliance Screenshot](The Wazuh Compliance (SCA) score.png)
 
 ## 🧠 Key Takeaways
 * Successfully configured agent-based log ingestion for SSH and System events.
