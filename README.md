@@ -1,6 +1,6 @@
 SIEM Lab with Wazuh
 
-## 🚀 Project Overview
+🚀 Project Overview
 I built a functional Security Operations Center (SOC) home lab to simulate real-world cyber attacks and practice defensive monitoring. The goal was to deploy a SIEM (Wazuh), ingest logs from a victim machine, and detect brute-force attacks in real-time.
 
 ## 🛠️ Technologies Used
@@ -17,11 +17,11 @@ Running a dictionary attack against SSH & RDP using Hydra to simulate an unautho
 
 2. The Detection (Blue Team)
 Wazuh dashboard correctly identifying the brute-force pattern.
-[Wazuh Dashboard Screenshot](Wazuh_Dashboard_showing_the_Events_spike.png)
+[Wazuh Dashboard Screenshot](Wazuh%20Dashboard%20showing%20the%20Events%20spike.png)
 
 3. Compliance Auditing
 Using Wazuh SCA to audit the Windows machine against CIS Benchmarks.
-SCA Compliance Screenshot (The_Wazuh_Compliance_(SCA)_score.png)
+![SCA Compliance Screenshot](The%20Wazuh%20Compliance%20(SCA)%20score.png)
 
 🧠 Key Takeaways
 * Successfully configured agent-based log ingestion for SSH and System events.
