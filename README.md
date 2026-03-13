@@ -1,4 +1,4 @@
-SIEM Lab with Wazuh
+Exploitation Testing & SOC Monitoring -Threat Detection  (Hydra/Wazuh)
 
 🚀 Project Overview
 I built a functional Security Operations Center (SOC) home lab to simulate real-world cyber attacks and practice defensive monitoring. The goal was to deploy a SIEM (Wazuh), ingest logs from a victim machine, and detect brute-force attacks in real-time.
